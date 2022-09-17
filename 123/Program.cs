@@ -1,4 +1,4 @@
-﻿//Задача 34
+﻿//Задача 34  Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, которая покажет количество чётных чисел в массиве.
 // Console.WriteLine("Введите размер массива:  ");
 // int size = Convert.ToInt32(Console.ReadLine());
 // int[] numbers = new int[size];
@@ -31,51 +31,47 @@
 //     Console.WriteLine();
 // }
 
-//Задача 36
-// int[] a = new int[4];
-// for (int i = 0; i < a.Length; i++)
-// {
-//     Console.Write($"Введите a[{i}] = ");
-//     a[i] = int.Parse(Console.ReadLine());
-// }
-// int sum = 0;
-// for (int i = 0; i < a.Length; i++)
-// {
-//     if (a[i] % 2 == 1)
-//         sum += a[i];
-// }
-// Console.WriteLine($"Сумма нечетных чисел = {sum}");
 
-//Задача 38
- Console.Write("Введите размер массива: ");
+
+//Задача 36 Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
+
+
+
+
+
+//Задача 38 Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
+//  Console.Write("Введите размер массива: ");
     
-    int n = Convert.ToInt32(Console.ReadLine());
-    int[] array = new int[n];
+//     int n = Convert.ToInt32(Console.ReadLine());
+//     int[] array = new int[n];
     
-    Random rand = new Random();
-    for (int i = 0; i < array.Length; i++) {
-          array[i] = new Random().Next(100);
-    }
+//     Random rand = new Random();
+//     for (int i = 0; i < array.Length; i++) {
+//           array[i] = new Random().Next(100);
+//     }
     
-    Console.Write("myarray: ");
-    for (int i = 0; i < array.Length; i++) {
-        Console.Write(array[i] + " ");
-    }
-    Console.WriteLine(" ");
+//     Console.Write("myarray: ");
+//     for (int i = 0; i < array.Length; i++) {
+//         Console.Write(array[i] + " ");
+//     }
+//     Console.WriteLine(" ");
     
-    int imin = 0, imax = 0;
+//     int imin = 0, imax = 0;
     
-    for (int i = 0; i < array.Length; i++) {
-        if (array[i] > array[imax])
-            imax = i;
-        if (array[i] < array[imin])
-            imin = i;
-    }
-    Console.WriteLine("min : array[" + imin + "] = " + array[imin]);
-    Console.WriteLine("max : array[" + imax + "] = " + array[imax]);
+//     for (int i = 0; i < array.Length; i++) {
+//         if (array[i] > array[imax])
+//             imax = i;
+//         if (array[i] < array[imin])
+//             imin = i;
+//     }
+//     Console.WriteLine("min : array[" + imin + "] = " + array[imin]);
+//     Console.WriteLine("max : array[" + imax + "] = " + array[imax]);
     
 
     
-   Console.WriteLine(array[imax]- array[imin]);
+//    Console.WriteLine(array[imax]- array[imin]);
   
 
+  
+
+  
